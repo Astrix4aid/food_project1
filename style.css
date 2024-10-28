@@ -1,0 +1,576 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arima", system-ui;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item a{
+    color: black;
+
+}
+.nav-item a:hover{
+    color: #f42121;
+}
+.btn-navbar{
+    display: block;
+    padding: 10px 43px;
+    border: 1px solid orange;
+    color: white;
+    border-radius: 60px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: orange;
+    
+   
+
+}
+/* .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: solid orange;
+    margin-right: -35px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background: orange;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 60px;
+} */
+/* .bgimage{
+    height: 100vh;
+    width: 100%;
+} */
+.sectionContent{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-content{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+}
+.para-section{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(253, 253, 253) ;
+    max-width: 400px;
+    line-height: 24px;
+    margin: 14px 0px;
+}
+.sectionLink{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px 0px;
+    border-radius: 50px;
+    padding: 10px 37px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.sectionLink{
+    color: #40E0D0;
+    border: 1px solid #40E0D0;
+    background-color: white;
+}
+.sectionLink:hover{
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #40E0D0;
+    
+}
+.meal{
+    color:#40E0D0;
+}
+.logo2{
+    margin-right: 20px;
+    width: 580px;
+}
+.sectionHead .sectionImg{
+    flex: 1 1 400px
+}
+.sectionHead .sectionImg img{
+    width: 92%;
+    animation: c 5s linear infinite;
+}
+@keyframes c{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+.sectionHead{
+  background-color:#f42121;  
+/* background-image: url(./images/doublebg.jpeg); */
+     height: 100vh; 
+}
+.about{
+    margin-top: 90px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+.aboutText{
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(240, 140, 47);
+    letter-spacing: 1px;
+    position: relative;
+}
+.aboutText::after{
+    position: absolute;
+    background-color: rgb(240, 140, 47);
+    height: 3px;
+    width: 74px;
+    top: 50px;
+    left: 110px;
+    margin-top: -1px;
+}
+.aboutHeading{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 67px;
+    color: rgba(0,0,0,0.8);
+}
+
+.para_about{
+    margin: 19px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.65);
+    line-height: 37px;
+}
+.imageContainer{
+    width: 100%;
+    height: 100%;
+}
+.image_food_container{
+    width: 100%;
+    height: 300px;
+    text-align: end;
+    cursor: pointer;
+}
+.image_food1{
+    display: inline-block;
+    height: 80%;
+    width: 75%;
+    background-color: #40E0D0;
+    margin-top: 18%;
+    background-image: url(./images/food/food4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image_food2{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #40e05b;
+    background-image: url(./images/food/food2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image_food3{
+    display: inline-block;
+    height: 60%;
+    width: 60%;
+    background-color: #8b40e0;
+    background-image: url(./images/food/food1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image_food4{
+    display: block;
+    height: 80%;
+    width: 80%;
+    background-color: #e0a840;
+    background-image: url(./images/food/food3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn_about{
+    display: inline-block;
+    text-decoration: none;
+    color: #40E0D0;
+    border: 1px solid #40E0D0;
+    background-color: white;
+    margin: 20px 0px;
+    border-radius: 50px;
+    padding: 10px 37px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.btn_about:hover{
+    color: white;
+    background-color:#40E0D0 ;
+}
+.service_area{
+    margin-top: 90px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.service_content{
+    width: 200px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 11px rgba(128,128,128,0.256);
+    transition: 0.2s ease-in;
+    
+}
+.service_heading{
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+}
+.icon_service {
+    font-size: 35px;
+    margin: 5px 0px;
+    color: #e91b1b;
+}
+.service_content:hover{
+    
+    background-color: rgb(0, 174, 255);
+    transform: translateY(-8px);
+}
+.service_content:hover .icon_service,
+.service_content:hover .service_heading{
+    color: white !important;
+}
+.menuSection{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 300px 0px;
+}
+.menuHeading{
+    font-family: "Bona Nova SC", serif; 
+}
+.menu_para{
+    margin: 16px 0px;
+    color: rgba(0,0,0,0.619);
+    font-weight: 500;
+}
+.content_menu{
+    width: 100%;
+    height: 220px;
+    margin: 11px 0px;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    
+}
+.image-1{
+    background-image:url(./images/food/beef-ruti.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-2{
+    background-image:url(./images/food/burger.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-3{
+    background-image:url(./images/food/Mess-Banners1.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-4{
+    background-image:url(./images/food/pasta.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-5{
+    background-image:url(./images/food/pasta-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-6{
+    background-image:url(./images/food/pizza.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-7{
+    background-image:url(./images/food/grilled-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-8{
+    background-image:url(./images/food/Mess-Banners4.png);
+    background-position: center;
+    background-size: cover;
+}
+.content_menu_Place{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    bottom: -22px;
+    left: 145px; 
+    font-weight: 600;
+}
+.content_menu:hover{
+
+    transform: translateY(-8px);
+}
+.textslide{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textslide_area{
+    width: 80%;
+    margin: auto;
+}
+.image_container{
+    width: 95%;
+    height: 450px;
+    /* border: 2px solid blue; */
+    border-radius: 6px;
+}
+.img_textslide_1{
+    background-image: url(./images/chef1..webp);
+    background-position: center;
+    background-size: cover;
+}
+.img_textslide_2{
+    background-image: url(./images/chef2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.img_textslide_3{
+    background-image: url(./images/chef3.webp);
+    background-position: center;
+    background-size: cover;
+}
+.indicator_textslide{
+    position: absolute;
+    bottom: -115px;
+}
+button{
+    width: 16px !important;
+    height: 16px !important;
+    background-color: skyblue !important;
+}
+.text_container_textslide{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading_sm_textslide{
+    text-transform: uppercase;
+    color: #f42121;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.heading_textslide{
+     font-size: 42px;
+     text-transform: capitalize;
+     margin-bottom: 40px;
+     margin-top: 18px;
+     font-family: "Bona Nova SC", serif;
+}
+.para_textslide{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.452);
+    margin: 15px 0px;
+    font-family: "Pacifico", cursive;
+}
+.fa-star{
+    font-size: 14px;
+    color: #eefd19;
+}
+.member{
+    font-size: 16px;
+    margin: 23px 0px;
+    font-weight: 600
+}
+.visit{
+    width: 100%;
+    height: 80vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading_title{
+    font-size: 17px;
+    font-weight: 600;
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.heading_lg_titie{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 19px 0px;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.blank{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,orange,red);
+}
+.icon:hover .blank{
+    color: white;
+    animation: spin 3s;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.footer_area{
+    margin-top: 40px;
+    height: 50vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 90% !important;
+}
+.footer_logo{
+    height: 70px;
+    width: 150px;
+}
+footer h3{
+    color: white;
+    font-size: 23px;
+    margin: 17px 0px;
+}
+.para_footer{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.733);
+    line-height: 24px;
+    font-weight: 400;
+    margin: 7px 0px;   
+}
+.para_footer_2{
+    font-size: 15px;
+    color: white;
+    line-height: 24px;
+}
+.blog_section_footer{
+    color: white;
+}
+.blog_title{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.para_blog_footer{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.705);
+    margin: 14px 0px;
+}
+.blog_footer{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-family: "Bona Nova SC", serif;
+}
+.list-items_footer{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+ul{
+    list-style-type: none;
+}
+.list-items_footer span{
+   padding: 0px 4px;
+   font-size: 13px;
+}
+.list-items_footer:hover{
+    letter-spacing: 2px;
+}

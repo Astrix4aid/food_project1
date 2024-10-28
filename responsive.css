@@ -1,0 +1,115 @@
+@media (max-width:1320px){
+    .navbar ,.sectionHead,.about,.service_area,.menuSection,.textslide,.visit,.footer_area{
+        width: 100%;
+        height: auto;
+    }
+    .aboutHeading{
+        font-size: 40px;
+        line-height: 55px;
+        
+    } 
+    .image_food1{
+        display: inline-block;
+        height: 90%;
+        width: 85%;
+    }  
+    .image_food2{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }  
+    .image_food3{
+        display: inline-block;
+        height: 90%;
+        width: 85%;
+    }  
+    .image_food4{
+        display: inline-block;
+        height: 90%;
+        width: 80%;
+    }  
+    .service_container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 50px 0px;
+        
+    }
+}
+
+@media (max-width:992px){
+    .imageContainer{
+        width: 95%;
+        height: 320%;
+    }
+    .text_container_textslide{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center ;
+        flex-direction: column;
+    }
+    .heading_textslide{
+        font-size: 32px;
+        margin-bottom: 30px;
+        margin-top: 12px;
+    }
+    .para_textslide{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25px;
+        margin: 0px 0px !important;
+        margin-bottom: 9px !important;
+    }
+    .contentHome{
+        font-size: 46px;
+        line-height: 82px;
+        text-align: center;
+    }
+    .section-content{
+        padding-left: 0px;
+    }
+    .para-section{
+        text-align: center;
+        max-width: 100%;
+    }
+    .sectionImg{
+        padding-left: 0px;
+    }
+    .btn-section{
+        text-align: center;
+        margin: 20px 0px;
+    }
+    /* .section-content{
+        font-size: 30px;
+        margin-bottom:20px ;
+        margin-top: 12px; 
+        
+    }
+    .meal{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .para-section{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin: 0px 0px !important;
+        margin-bottom: 12px;
+       
+    }
+    .btn-section{
+        margin: 0px 0px;
+        padding: 10px 0px;
+        font-size: 10px;
+    } */
+}
+
+
+/* <form class="d-flex" role="search">
+                <input class="px-2- search" type="search" placeholder="      Search" aria-label="Search">
+                <button class="btn0 btn-outline-success" type="submit">Search</button>
+              </form> */
